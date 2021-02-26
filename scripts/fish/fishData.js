@@ -1,4 +1,4 @@
-export const fishCollection = [
+const fishCollection = [
     {
         saltWater: true,
         harvestLocation: "Pacific Ocean",
@@ -255,4 +255,4 @@ export const fishCollection = [
 
 export const getFish = () => {
     return fishCollection
-}
+};

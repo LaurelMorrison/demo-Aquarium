@@ -1,5 +1,5 @@
 body {
-	background-color: antiquewhite;
+	background-color: #fbedc3;
 	font-family: tahoma, 'Poppins', sans-serif;
 	margin: 0;
 }
@@ -8,15 +8,9 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
-	background-color: rgb(7, 85, 85);
-}
-
-header h1 {
-	line-height: 1em;
-	color: white;
-	text-align: left;
-	padding: 0 2em;
-	font-size: 1.5em;
+    background-color:#469EBA;
+    height: 80px;
+    justify-content: center;
 }
 
 nav ul {
@@ -24,7 +18,7 @@ nav ul {
 	margin: 0;
 	padding: 1em;
 	overflow: hidden;
-	background-color: rgb(100, 128, 128);
+	background-color: #f9A723;
 	display: flex;
 	justify-content: flex-end; 
   }
@@ -35,7 +29,7 @@ nav li {
   }
 
 nav a {
-	color: white;
+	color: #FBEdc3;
 }
 
 .fishTank {
@@ -50,9 +44,9 @@ nav a {
 }
 
 .fish-card {
-	background-color: lightcyan;
+	background-color: #8cbece;
     margin: .5em;
-    border: solid 1em rgb(7, 85, 85);
+    border: solid 1em #FEDB47;
     padding: .5em;
     max-width: 200px;
 }
@@ -77,8 +71,8 @@ nav a {
 }
 
 footer {
-	background-color: darkcyan;
-	color: whitesmoke;
+	background-color: #8CBECE;
+	color: #FBEDC3;
     text-align: center;
     height: 50px;
     display: flex;
@@ -86,16 +80,16 @@ footer {
 }
 
 footer a {
-    color: lightskyblue;
+    color: #245160;
 }
 
 a:hover {
-	color: lightsalmon;
+	color: #C2821B;
 }
 
 .asideTips {
-    color: rgb(7, 85, 85);
-    background-color: white;
+    color: black;
+    background-color: #f9A723;
     display: block;
     float: right;
     padding: 15px;
@@ -108,14 +102,101 @@ main {
     text-align: center;
 }
 
-.header {
+.headline {
     text-align: center;
-    color: rgb(7, 85, 85);
+    color: black;
 }
 
 .quotes {
-    background-color: lightskyblue;
+    background-color: #f9A723;
     color: black;
     padding: 20px;
+    margin: 0px;
     text-align: center;
+}
+
+.locations {
+    background-color: #245160;
+    padding: 20px;
+    margin: 0px;
+}
+
+#locationList{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-evenly;	
+}
+
+.location-card {
+    margin: .5em;
+    border: solid 1em #469EBA;
+    background-color: #FBEDC3;
+    color: black;
+    padding: .5em;
+    max-width: 200px;
+}
+
+.location-card ul {
+    list-style-type:none;
+    margin: 2px;
+	padding: .5em;
+    margin: .2em;
+    text-align: left;
+	font-size: .8em;
+}
+
+#tipList{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;	
+    color: black;
+}
+
+.tip-card {
+    margin: .5em;
+    border: black;
+    padding: .5em;
+    max-width: 200px;
+}
+
+.tip-card ul {
+    margin: 2px;
+    padding: .5em;
+    margin: .2em;
+    text-align: left;
+    font-size: .8em;
+}
+
+.locationHeader {
+    text-align: center;
+    color: white;
+}
+
+.mainHeader {
+    text-align: center;
+}
+
+.harvest{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#harvestList{
+	display: flex;
+    text-align: center;
+    color: black;
+}
+
+.harvest-card {
+    margin: .5em;
+    border: black;
+    padding: .5em;
+    max-width: 200px;
+}
+
+.harvest-image {
+	width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
