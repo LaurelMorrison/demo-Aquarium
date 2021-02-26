@@ -1,0 +1,121 @@
+body {
+	background-color: antiquewhite;
+	font-family: tahoma, 'Poppins', sans-serif;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	background-color: rgb(7, 85, 85);
+}
+
+header h1 {
+	line-height: 1em;
+	color: white;
+	text-align: left;
+	padding: 0 2em;
+	font-size: 1.5em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+	overflow: hidden;
+	background-color: rgb(100, 128, 128);
+	display: flex;
+	justify-content: flex-end; 
+  }
+  
+nav li {
+	display: inline;
+	margin: 0 1em;
+  }
+
+nav a {
+	color: white;
+}
+
+.fishTank {
+	margin: 1em 0;
+	display: flex;
+}
+
+#fishList{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-evenly;	
+}
+
+.fish-card {
+	background-color: lightcyan;
+    margin: .5em;
+    border: solid 1em rgb(7, 85, 85);
+    padding: .5em;
+    max-width: 200px;
+}
+
+.fish-card ul {
+    list-style-type:none;
+    margin: 2px;
+	padding: .5em;
+    margin: .2em;
+    text-align: left;
+	font-size: .8em;
+}
+
+.fish-image {
+	width: 100%;
+    height: 150px;
+    object-fit: scale-down;
+}
+
+.section-main {
+	margin: 1em;
+}
+
+footer {
+	background-color: darkcyan;
+	color: whitesmoke;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: lightskyblue;
+}
+
+a:hover {
+	color: lightsalmon;
+}
+
+.asideTips {
+    color: rgb(7, 85, 85);
+    background-color: white;
+    display: block;
+    float: right;
+    padding: 15px;
+    margin: 15px;
+    width: 20%;
+}
+
+main {
+    margin: 5px;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    color: rgb(7, 85, 85);
+}
+
+.quotes {
+    background-color: lightskyblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}

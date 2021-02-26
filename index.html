@@ -1,51 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aquarium Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
-<!---Header--->
-<!---Main (Fish)--->
-<!---Aside (Tips)--->
+    <!---Header--->
+    <div class="header">
+        <header>
+            <H1 class="mainHeader">Martin's Aquarium</H1>
+        </header>
+    </div>
+
+    <!---Aside (Tips)--->
     <aside>
-        <div class="aside_tips">
-            <h3>Tank Tips</h3>
-                  <div>
-                        <ul>
-                            <h4>Salinity Levels</h4>
-                            <li>Most reef-building corals also require very saline (salty) water ranging from 32 to 42 parts per thousand.</li>
-                            <li>The water must also be clear so that a maximum amount of light penetrates it.</li>
-                            <li>Too high of salinity and the enzymes and protein synthesis in the bodies of inverts and fish don't work so well.</li>
-                      </ul>
-                 </div>
+        <div class="asideTips">
+            <h2 class="header"><strong>Tank Tips</strong></h2>
+            <div>
+                <ul>
+                    <h4><u>Salinity Levels:</u></h4>
+                    <li>Most reef-building corals also require very saline (salty) water ranging from 32 to 42 parts
+                        per
+                        thousand.</li>
+                    <li>The water must also be clear so that a maximum amount of light penetrates it.</li>
+                    <li>Too high of salinity and the enzymes and protein synthesis in the bodies of inverts and fish
+                        don't work so well.</li>
+                </ul>
+            </div>
 
-                 <div>
-                        <ul>
-                            <h4>Temperature Tips</h4>
-                            <li>A good range is 76° to 80°F (25° to 27°C).</li>
-                            <li>A few species need to be kept several degrees warmer, and some species require temperatures a few degrees cooler. </li>
-                            <li>A thermometer is vital. A stick-on type enables you to check the temperature whenever you look at the aquarium.</li>
-                        </ul>
-                 </div>
+            <div>
+                <ul>
+                    <h4><u>Temperature Tips:</u></h4>
+                    <li>A good range is 76° to 80°F (25° to 27°C).</li>
+                    <li>A few species need to be kept several degrees warmer, and some species require temperatures
+                        a
+                        few degrees cooler. </li>
+                    <li>A thermometer is vital. A stick-on type enables you to check the temperature whenever you
+                        look
+                        at the aquarium.</li>
+                </ul>
+            </div>
 
-                 <div>
-                        <ul>
-                            <h4>Tank Cleaning</h4>
-                            <li>If you have a large, well established tank you should clean your tank on a weekly or bi-weekly basis.</li>
-                            <li>A water change should be done to the keep the tank clean and the fish happy.</li>
-                            <li>Depending on the type of filter you use for the tank, you may be able to get away with cleaning the tank once per month.</li>
-                        </ul>
-                  </div>
+            <div>
+                <ul>
+                    <h4><u>Tank Cleaning:</u></h4>
+                    <li>If you have a large, well established tank you should clean your tank on a weekly or
+                        bi-weekly
+                        basis.</li>
+                    <li>A water change should be done to the keep the tank clean and the fish happy.</li>
+                    <li>Depending on the type of filter you use for the tank, you may be able to get away with
+                        cleaning
+                        the tank once per month.</li>
+                </ul>
+            </div>
         </div>
     </aside>
-<!---Quotes--->
-<!---Locations--->
-<!---Footer--->
+
+    <!---Main (Fish)--->
+    <main>
+        <div class="Fish Tank">
+            <h2 class="header"><strong>Fish Tank</strong></h2>
+            <section id="fishList">
+            </section>
+        </div>
+
+
+
+    </main>
+    <!---Quotes--->
+    <div class="quotes">
+        <h2>Quotes</h2>
+        <p><i> "Remember folks, fish are like relatives. After two days, they stink."</i> - Bobby Heenan</p>
+        <p><i> "It's okay to eat fish because they don't have any feelings."</i> - Kurt Cobain</p>
+        <p><i> "Just keep swimming." </i> - Dory</p>
+        <p><i> "Only dead fish go with the flow." </i> - Unknown</p>
+    </div>
+    <!---Locations--->
+    
+    <!---Footer--->
     <footer>
+        <!-- <p>Phone: (xxx) xxx-xxxx</p>
+        <p>Email: test@test.com</p> -->
         <p>&copy; 2021 Cohort 47 <a href="http://nashvillesoftwareschool.com/">Nashville Software School</a></p>
     </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+
 </body>
+
 </html>
