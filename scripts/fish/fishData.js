@@ -256,3 +256,40 @@ const fishCollection = [
 export const getFish = () => {
     return fishCollection
 };
+
+export const getMostHolyFish = () => {
+    
+    const holyFishArray = []
+
+    for (const fishObj of fishCollection) {
+        if (fishObj.inches % 3 === 0)
+        holyFishArray.push(fishObj)
+    };
+
+    return holyFishArray
+};
+
+export const getSoldierFish = () => {
+
+    const soldiersArray = []
+
+    for (const fishObj of fishCollection) {
+        if (fishObj.inches % 5 === 0 && fishObj.inches % 3 !== 0)
+        soldiersArray.push(fishObj)
+    };
+
+    return soldiersArray
+};
+
+export const getUnworthyFish = () => {
+
+    const unworthyArray = []
+
+    for (const fishObj of fishCollection) {
+        if (fishObj.inches % 5 !== 0 && fishObj.inches % 3 !== 0)
+         unworthyArray.push(fishObj)  
+    };
+
+    return unworthyArray
+};
+
